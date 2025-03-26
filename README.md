@@ -33,3 +33,38 @@ Algumas respostas do bot não foram tão naturais e precisaram de ajustes para i
 ✅ O Speech Studio é interessante para transformar texto em fala e melhorar a acessibilidade.
 ✅ Para obter melhores resultados, o ideal é treinar um modelo personalizado com mais exemplos.
 
+
+Tarefa extração de texto de uma imagem.
+
+Passos para Configuração
+Instalar Bibliotecas
+
+Para usar o Tesseract OCR, é necessário instalar as bibliotecas pytesseract e Pillow. Você pode instalar as bibliotecas usando o comando pip install pytesseract pillow.
+
+Importar as Bibliotecas
+
+Após a instalação, importe as bibliotecas necessárias no seu código Python.
+
+Carregar e Exibir a Imagem
+
+Carregue a imagem que você deseja processar. Use um código para abrir e exibir a imagem.
+
+Extrair Texto da Imagem
+
+Para extrair o texto da imagem, utilize a função apropriada do Tesseract, que irá mostrar o texto extraído da imagem.
+
+Resultado Esperado
+
+Ao processar a imagem, o texto extraído será mostrado no seu terminal ou saída. O texto extraído pode ser algo como: "Exemplo de texto da imagem processada".
+
+Insights e Possibilidades
+Precisão: O Tesseract funciona melhor com imagens nítidas e boa qualidade de contraste. Quanto melhor a imagem, maior a precisão na extração de texto.
+
+Aplicações:
+
+Digitalização de documentos para transformá-los em formato digital pesquisável.
+
+Extração de texto de recibos ou faturas para organizar dados de forma automática.
+
+Ferramenta útil para melhorar a acessibilidade de conteúdos visuais, ajudando pessoas com deficiências visuais.
+
