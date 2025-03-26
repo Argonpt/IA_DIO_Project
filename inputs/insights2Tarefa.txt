@@ -1,0 +1,38 @@
+# Cognitive Search com IA do Azure
+
+
+## Passos para Configuração
+
+### 1. Criação do Serviço de Pesquisa Cognitiva no Azure
+
+- Acesse o portal do **Azure**.
+- No menu de pesquisa, busque por **Cognitive Search** e crie um novo serviço.
+- Escolha um nome para o serviço e a região onde deseja hospedá-lo.
+- Após a criação, obtenha a chave de API para autenticação ao interagir com o serviço.
+
+### 2. Carregar e Indexar Dados
+
+- Prepare seus dados (por exemplo, documentos de texto ou PDFs) que você deseja indexar.
+- Use a interface de **Azure Search** para criar um índice e carregar os dados para o serviço de pesquisa.
+- Configure o índice para extrair os dados necessários, como palavras-chave, entidades, etc.
+
+### 3. Enriquecimento de IA
+
+- Habilite o **Enriquecimento de IA** para melhorar a precisão da pesquisa, utilizando serviços como análise de sentimentos, extração de entidades, e tradução de idiomas.
+- Implemente habilidades cognitivas para enriquecer os dados durante a indexação.
+
+### 4. Teste da Pesquisa Cognitiva
+
+- Após configurar a pesquisa, utilize a API do Azure para realizar consultas de pesquisa.
+- Avalie a qualidade dos resultados e ajuste os parâmetros do índice conforme necessário.
+
+## Insights e Possibilidades de Ferramentas
+
+- A **Pesquisa Cognitiva do Azure** pode ser aplicada em uma variedade de cenários, como análise de documentos legais, mineração de texto, e extração de informações comerciais.
+- Ferramentas como o **Power BI** e o **Azure Machine Learning** podem ser integradas à Pesquisa Cognitiva para análises avançadas e visualizações.
+
+## Aprendizados Adquiridos
+
+- O uso de IA no processo de pesquisa melhora a relevância e a precisão dos resultados, permitindo que sistemas encontrem informações mesmo quando os dados estão em formatos não estruturados.
+- O Azure Cognitive Search facilita a integração de IA sem a necessidade de construir modelos do zero, oferecendo uma solução prática e poderosa para empresas que lidam com grandes volumes de dados.
+
